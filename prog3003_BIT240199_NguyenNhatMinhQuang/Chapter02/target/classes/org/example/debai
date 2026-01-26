@@ -1,0 +1,51 @@
+Bài 1:
+
+Tình huống: Bạn cần quản lý kết nối cơ sở dữ liệu (Database Connection). Việc tạo nhiều kết nối rất tốn tài nguyên, nên bạn chỉ muốn duy nhất một instance (thể hiện) của class DatabaseConnection tồn tại trong suốt vòng đời ứng dụng. Yêu cầu:
+
+1. Tạo class DatabaseConnection với constructor là private.
+
+2. Tạo một biến static để lưu instance duy nhất.
+
+3. Viết phương thức public static getInstance() để trả về instance đó (nếu chưa có thì tạo mới, có rồi thì trả về).
+
+Bài 2:
+
+Tình huống: Hệ thống thông báo (Notification) cần gửi tin nhắn qua nhiều kênh: SMS, Email, và Push Notification. Client không cần biết chi tiết cách tạo từng loại, chỉ cần yêu cầu loại thông báo. Yêu cầu:
+
+1. Tạo interface Notification với hàm notifyUser().
+
+2. Tạo các class SMSNotification, EmailNotification implement interface trên.
+
+3. Tạo class NotificationFactory có method createNotification(String channel) trả về đối tượng tương ứng dựa trên input.
+
+Bài 3:
+
+Tình huống: Hệ thống “Rạp hát tại gia” (Home Theater) rất phức tạp. Để xem phim, bạn phải bật Tivi, bật Loa, bật đầu DVD, giảm ánh sáng đèn. Yêu cầu:
+
+1. Giả sử có các class con: TV, SoundSystem, DVDPlayer.
+
+2. Tạo class HomeTheaterFacade có phương thức watchMovie().
+
+3. Trong watchMovie(), gọi lần lượt các hàm bật thiết bị của các class con để đơn giản hóa việc sử dụng cho Client.
+
+Bài 4:
+
+Tình huống: Một trang thương mại điện tử hỗ trợ thanh toán qua nhiều hình thức: CreditCard hoặc PayPal. Người dùng có thể chọn thay đổi phương thức thanh toán ngay lúc runtime. Yêu cầu:
+
+1. Tạo interface PaymentStrategy với hàm pay(int amount).
+
+2. Tạo 2 class implement interface trên là CreditCardPayment và PayPalPayment.
+
+3. Tạo class ShoppingCart có phương thức setPaymentStrategy(…) và checkout(int amount).
+
+Bài 5:
+
+Tình huống: Tạo một hệ thống gửi thông báo đơn giản. Yêu cầu:
+
+1. Tạo interface MessageService với phương thức sendMessage(String message)
+
+2. Tạo 2 lớp implement từ interface trên: EmailService và SMSService
+
+3. Tạo lớp Notification sử dụng Setter Injection để nhận dependency MessageService
+
+4. Viết chương trình demo gửi thông báo qua cả 2 dịch vụ EmailService và SMSService
