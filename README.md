@@ -1,3 +1,4 @@
+<<<<<<< prog3003-BIT240199-NguyenNhatMinhQuang
 # Assignment Java Programming
 
 ## Chapter 01.
@@ -23,3 +24,7 @@
 - [Bai 2](https://github.com/eldennhat/Assignment-Java-Programming/tree/prog3003-BIT240199-NguyenNhatMinhQuang/prog3003_BIT240199_NguyenNhatMinhQuang/Chapter03/src/main/java/org/example/Bai2)
 - [Bai 3](https://github.com/eldennhat/Assignment-Java-Programming/tree/prog3003-BIT240199-NguyenNhatMinhQuang/prog3003_BIT240199_NguyenNhatMinhQuang/Chapter03/src/main/java/org/example/Bai3)
 - [Bai 4](https://github.com/eldennhat/Assignment-Java-Programming/tree/prog3003-BIT240199-NguyenNhatMinhQuang/prog3003_BIT240199_NguyenNhatMinhQuang/Chapter03/src/main/java/org/example/Bai4)
+=======
+# Repository for Java programming assignment submission
+- [prog3003_BIT240199_NguyenNhatMinhQuang](https://github.com/eldennhat/Assignment-Java-Programming/tree/prog3003_BIT240199_NguyenNhatMinhQuang)
+>>>>>>> main
