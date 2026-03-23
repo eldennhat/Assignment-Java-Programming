@@ -1,0 +1,52 @@
+.main-window {
+    -fx-background-color: #1e1e1e;
+}
+
+.display {
+    -fx-background-color: #252526;
+    -fx-text-fill: white;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-alignment: center-right;
+    -fx-background-radius: 8;
+    -fx-pref-height: 80px;
+}
+
+.btn {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 35;
+    -fx-cursor: hand;
+    -fx-pref-width: 65px;
+    -fx-pref-height: 65px;
+}
+
+.btn-number {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+.btn-number:hover { -fx-background-color: #444444; }
+
+.btn-math {
+    -fx-background-color: #ff9f43;
+    -fx-text-fill: white;
+}
+.btn-math:hover { -fx-background-color: #ffb169; }
+
+.btn-operator {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: black;
+}
+.btn-operator:hover { -fx-background-color: #cccccc; }
+
+.btn-clear {
+    -fx-background-color: #ee5253;
+    -fx-text-fill: white;
+}
+.btn-clear:hover { -fx-background-color: #ff6b6b; }
+
+.btn-zero {
+    -fx-pref-width: 138px; /* Nút 0 dài gấp đôi */
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 25px;
+}
